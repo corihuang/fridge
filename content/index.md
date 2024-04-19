@@ -1,0 +1,3 @@
+---
+title: Fridge documentation
+---
