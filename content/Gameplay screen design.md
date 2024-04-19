@@ -3,18 +3,15 @@
 
 # Flow
 If the player enters from [[Map screen design]], they will encounter: 
-1. This screen
-2. [[Level end modal]]
+- This screen -> [[Level end modal]]
 
 If the player enters from the last game screen, they will encounter:
-1. [[Level start modal]]
-2. This screen
-3. [[Level end modal]]
+- [[Level start modal]] -> This screen -> [[Level end modal]]
 
 # Requirements
 
 Describes UI/UX requirements for this screen.
-From left to right on screen:
+By default, arranged left to right on screen:
 ## Info rail (left)
 Mostly non-interactive elements:
 - level #
@@ -25,7 +22,7 @@ Mostly non-interactive elements:
 ### Info modal
 Info modals show details about various objects in the game. The modal is for info purposes only, so the only interaction is to open or close.
 - tap and hold OR mouse right click(?) or long hover(?) on board items opens an info modal
-	- modal is aligned on left side of screen
+- modal is aligned on left side of screen
     - for monsters, shows their attack pattern, health, weakness(?)
     - for items, show description and/or how to use(?)
     - for rocks and other static elements, show flavor text
@@ -71,12 +68,11 @@ Contains:
     - Use button activates the potion and uses it up
 - rune bar — not scoped for demo
 
-# Designs & Prototypes
-https://www.figma.com/file/8cF3NfD5gMtko1Qm78B3rS/Demo-Design?type=design&node-id=401%3A604&mode=design&t=Iw1krlme8LSYFL8s-1
+# Designs & prototypes
+[Figma](https://www.figma.com/proto/8cF3NfD5gMtko1Qm78B3rS/Demo-Design?page-id=574%3A3287&type=design&node-id=624-18854&viewport=-29%2C317%2C0.15&t=BJk1ULQFR3wAQar1-1&scaling=min-zoom&starting-point-node-id=624%3A18854&show-proto-sidebar=1&mode=design)
 
+>[!question] Question
+>How do displays differ between phone/tablet? Can we set different images to display on each, similar to providing retina size and standard size images for browsers? (is that a thing anymore?)
 
-❓How do displays differ between phone/tablet? Can we set different images to display on each, similar to providing retina size and standard size images for browsers? (is that a thing anymore?)
-
-**Technical considerations**
-
-Design for landscape and portrait mode - esp for tablet, maybe Switch later
+>[!note] Future considerations
+>Design mainly for landscape mode on desktop. Will keep in mind portrait format, mobile, tablet, maybe Switch later

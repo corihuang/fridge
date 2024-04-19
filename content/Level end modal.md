@@ -1,4 +1,4 @@
-The Level end modal shows up at the end of (most) game levels. It shows:
+The Level end modal shows up on the [[Gameplay screen design]] at the end of (most) game levels. It shows:
 
 - Results rating (star rating) or lose message if the player wasn't able to complete the level
 - Level stats:

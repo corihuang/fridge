@@ -9,7 +9,7 @@
 
 The player doesn't directly navigate the player avatar. Instead, they navigate by selecting where they intend to go. This maintains consistent player input because on the gameplay screen, the player does not directly move their avatar either.
 
-There are two main ways to navigate on the map screen:
+**There are two main ways to navigate on the map screen:**
 1. [[#Selecting a destination]] — for example, to go to the library, the player selects the library in basecamp.
 2. Using the [[#Quick Nav]] menu
 
@@ -18,37 +18,37 @@ There are two main ways to navigate on the map screen:
 On mobile/touchscreen, the player taps to access places (library, forge, etc.) to go to those places. To see the rest of the map, the player taps and drags the map up and down.
 
 >[!info] FTUE
-> A small animation or something early on instructs the player that they can drag to scroll (if they don't already try it).
+> Early on, a tool tip will instruct the player that they can tap and drag to scroll (if they don't already try it).
 
 **Desktop**
 On desktop, clicking on a location takes them to that place. Eventually, show animation of the player going to the place. There will be a scroll bar/buttons to show that the player can scroll the screen. They should also be able to click/drag, use scroll wheel, or up/down arrow keys?
 
 >[!info] FTUE
-> A small tooltip should show up early on to let the player know that they can use the keyboard or mouse wheel or click and drag to scroll as well.
+> A small tooltip should show up early on to let the player know that they can use the keyboard, mouse wheel, or click and drag to scroll in addition to the scrollbar.
 
 ## Quick Nav
 The Quick Nav is a sticky menu that allows the player to access certain places without needing to scroll to find it in the map. Selecting a Quick Nav option will trigger the avatar movement animation and scroll the view to the destination on the map.
 
 The Quick Nav options are:
-- Current story point — This is a contextual button that takes the player to the current highest priority task. Most often, this will correspond to the next story beat, which will likely be denoted by an [[##Alerts]]. The icon for this button will change to reflect where it will take the player. Some examples:
+- **Current story point** — This is a contextual button that takes the player to the current highest priority task. Most often, this will correspond to the next story beat, which will likely be denoted by an [[#Alerts]]. The icon for this button will change to reflect where it will take the player. Some examples:
 	- The next level — The next narrative beat is for the player to tackle the next new level. The icon shows a rock.
 	- Library — the next narrative beat involves speaking to Leila about a book. The icon shows the Library.
 	- Donnie is back — No narrative alerts (or maybe FTUE). Donnie has returned from a mission. The icon shows Donnie.
 	- Forge — if there is new equipment ready for the player. The icon shows the Forge.
 	- Cauldron — if there are new potions for the player to brew. The icon shows the Cauldron.
-- Cauldron
-- Forge — not scoped for demo
-- Next level — takes the player to the next new level in the world map, with the "level goals" modal open.
+- **Cauldron**
+- **Forge** — not scoped for demo
+- **Next level** — takes the player to the next new level in the world map, with the "level goals" modal open.
 
 ## Transitions
 In either touchscreen/desktop situation, if the player avatar is suppose to move, there will be a short animation that brings the avatar to the appropriate location. If the location is on a different vertical level that its current location (most cases), the player avatar will run off screen either left or right, then enter on the destination level from the right or left side of the screen—implying some offscreen shortcut.
 
 If the avatar is offscreen from the current view, only show the avatar running into the view.
 
-**Entering locations**
+### Entering locations
 If the player selects a location, such as the Library, the avatar movement animation should be very short, followed by transition into the appropriate destination screen.
 
-**Entering a game level**
+### Entering a game level
 Tapping on a level in the map will open to [[Level start modal]]. When using the [[#Quick Nav]] to access the next level, it shows this modal right away.
 
 # Other UI
