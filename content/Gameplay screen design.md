@@ -1,5 +1,5 @@
->[! Overview]
-This doc describes the requirements for the main gameplay screen throughout Underminers Revolution. It will be able to accommodate the narrative gameplay and be styled to reflect the different worlds that the player traverses.
+>[!info] Overview
+> This doc describes the requirements for the main gameplay screen throughout Underminers Revolution. It will be able to accommodate the narrative gameplay and be styled to reflect the different worlds that the player traverses.
 
 # Flow
 If the player enters from [[Map screen design]], they will encounter: 

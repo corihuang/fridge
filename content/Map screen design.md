@@ -1,5 +1,5 @@
->[!  Overview ]
-This doc describes the requirements for the map screen, which includes:
+>[!info] Overview
+> This doc describes the requirements for the map screen, which includes:
 > 1. Basecamp
 > 2. Level Map (aka World Map)
 > 
@@ -17,13 +17,13 @@ There are two main ways to navigate on the map screen:
 **Mobile/touchscreen**
 On mobile/touchscreen, the player taps to access places (library, forge, etc.) to go to those places. To see the rest of the map, the player taps and drags the map up and down.
 
->[!  FTUE ]
+>[!info] FTUE
 > A small animation or something early on instructs the player that they can drag to scroll (if they don't already try it).
 
 **Desktop**
 On desktop, clicking on a location takes them to that place. Eventually, show animation of the player going to the place. There will be a scroll bar/buttons to show that the player can scroll the screen. They should also be able to click/drag, use scroll wheel, or up/down arrow keys?
 
->[!  FTUE ]
+>[!info] FTUE
 > A small tooltip should show up early on to let the player know that they can use the keyboard or mouse wheel or click and drag to scroll as well.
 
 ## Quick Nav
